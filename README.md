@@ -2,7 +2,8 @@
 
 > Um jogo de labirinto desenvolvido em Python e Pygame como projeto para a disciplina de Teoria dos Grafos. O objetivo principal é aplicar e visualizar algoritmos de grafos, como DFS e BFS, em um ambiente interativo.
 
-![Prévia do Jogo](https://i.imgur.com/3d3c2c.png)
+<img width="541" height="478" alt="imagem" src="https://github.com/user-attachments/assets/82b0b2a1-4807-4f84-8e09-1ab2ab89d1c7" />
+
 
 ---
 
