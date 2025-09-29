@@ -52,7 +52,7 @@ Siga os passos abaixo para rodar o jogo em sua máquina local.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/ViniVincin/pi-labirinto.git](https://github.com/ViniVincin/pi-labirinto.git)
+    git clone https://github.com/ViniVincin/pi-labirinto.git
     ```
 
 2.  **Navegue até a pasta do projeto:**
