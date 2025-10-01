@@ -1,4 +1,4 @@
-#  Maze Game - Teoria dos Grafos
+#  RunLab- Teoria dos Grafos
 
 > Um jogo de labirinto desenvolvido em Python e Pygame como projeto para a disciplina de Teoria dos Grafos. O objetivo principal é aplicar e visualizar algoritmos de grafos, como DFS e BFS, em um ambiente interativo.
 
