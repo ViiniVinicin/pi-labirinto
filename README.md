@@ -62,7 +62,7 @@ Uma visão rápida da organização do projeto:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/ViniVincin/pi-labirinto.git
+git clone https://github.com/ViiniVinicin/pi-labirinto.git
 cd pi-labirinto
 ```
 ### 2. Execute o projeto com Docker Compose
