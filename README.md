@@ -71,3 +71,34 @@ Certifique-se de que os arquivos `susto.jpg` e `grito.wav` estão na mesma pasta
 
 ```bash
 python labirinto.py
+
+---
+
+## Jogar via Web (novo)
+
+Adicionei uma versão web minimalista que expõe o motor do labirinto via uma API Flask e uma página estática.
+
+Como executar:
+
+1. Instale dependências do servidor web:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Inicie o servidor (vai servir em http://localhost:5000):
+
+```bash
+python app.py
+```
+
+3. Abra o navegador em http://localhost:5000 — a página fornece controles e desenha o labirinto.
+
+Observações:
+- A versão web usa uma engine separada sem dependência do Pygame, para permitir execução no servidor.
+- O jump scare e os arquivos multimídia permanecem apenas na versão Pygame desktop.
+ - Para que o jump scare funcione também na versão web, coloque os arquivos de mídia em `static/media/`:
+     - `static/media/susto.jpg` (imagem)
+     - `static/media/grito.wav` (áudio)
+     Se esses arquivos não existirem o overlay pode aparecer sem imagem ou sem áudio, dependendo do navegador.
+

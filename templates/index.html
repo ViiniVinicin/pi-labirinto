@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Labirinto - Web</title>
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Labirinto - Jogar no Navegador</h1>
+      <div class="controls">
+        <button id="newBtn">Novo Labirinto</button>
+        <button id="bfsBtn">Resolver (BFS)</button>
+        <button id="dfsBtn">Resolver (DFS)</button>
+        <label>Cols: <input id="cols" type="number" value="20" min="5" max="80"></label>
+        <label>Rows: <input id="rows" type="number" value="15" min="5" max="80"></label>
+      </div>
+      <canvas id="maze" width="520" height="400"></canvas>
+      <div class="info">
+        <p id="status">Pronto</p>
+        <p>Use as setas do teclado para mover.</p>
+        <div class="stats">
+          <div id="bfsStats">BFS: —</div>
+          <div id="dfsStats">DFS: —</div>
+        </div>
+      </div>
+      <!-- overlay de jump scare -->
+      <div id="jumpscare" class="overlay" style="display:none">
+        <img id="jumpscareImg" src="/static/media/susto.jpg" alt="susto">
+        <audio id="jumpscareAudio" src="/static/media/grito.wav"></audio>
+      </div>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
