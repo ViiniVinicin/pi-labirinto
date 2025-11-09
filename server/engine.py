@@ -1,11 +1,14 @@
 """
-Módulo de engine do labirinto sem dependências do Pygame.
-Fornece classes e funções puras para gerar, resolver e manipular o labirinto
-em memória (serializável para JSON) usado pelo backend web.
+server.engine
+---------------
+Lógica pura do labirinto (cópia adaptada do motor original) separada do front-end
+e do Pygame. Mantém pequenas mudanças: Game armazena soluções pré-computadas.
+
+Este módulo é independente de frameworks web e usado por `server.app`.
 """
 import random
 import time
-from typing import List, Tuple, Optional
+from typing import List, Optional
 
 
 class Celula:
@@ -141,7 +144,7 @@ class Game:
             'fim': {'x': self.fim.x, 'y': self.fim.y},
             'fim_de_jogo': self.fim_de_jogo,
             'grid': grid_serial,
-            'solutions': self.solutions
+            'solutions': self.solutions,
         }
 
     def move(self, direction: str) -> bool:
