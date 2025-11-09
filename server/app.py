@@ -18,6 +18,12 @@ games = {}
 
 @app.route('/')
 def index():
+    # Página inicial (landing). A interface do jogo fica em /labirinto
+    return render_template('landing.html')
+
+
+@app.route('/labirinto')
+def labirinto():
     return render_template('index.html')
 
 
