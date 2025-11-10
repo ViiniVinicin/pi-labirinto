@@ -40,12 +40,8 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align: center;
     box-sizing: border-box;
     background-color: #c73232;
-}
-
-.card-front {
 }
 
 .card-front .logo-img {
