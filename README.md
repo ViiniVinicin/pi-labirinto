@@ -87,7 +87,7 @@ Use apenas se estiver sem suporte ao Docker ou se desejar rodar o código direta
 
 ### 1. Crie um ambiente Python (opcional, recomendado)
 ```bash
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate      # Linux/Mac
 venv\Scripts\activate         # Windows
 ```
