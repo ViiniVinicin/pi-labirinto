@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <h1>Labirinto - Jogar no Navegador</h1>
-      <p>Visualize e compare BFS e DFS enquanto joga em um labirinto gerado proceduralmente.</p>
+      <p class="text">Visualize e compare BFS e DFS enquanto joga em um labirinto gerado proceduralmente.</p>
       <div class="controls">
         <button id="newBtn">Novo Labirinto</button>
         <button id="bfsBtn">Resolver (BFS)</button>
@@ -17,10 +17,10 @@
         <label>Cols: <input id="cols" type="number" value="20" min="5" max="80"></label>
         <label>Rows: <input id="rows" type="number" value="15" min="5" max="80"></label>
       </div>
-      <canvas id="maze" width="520" height="400"></canvas>
+      <canvas id="maze" width="640" height="520"></canvas>
       <div class="info">
         <p id="status">Pronto</p>
-        <p>Use as setas do teclado para mover.</p>
+        <p class="text">Use as setas do teclado para mover.</p>
         <div class="stats">
           <div id="bfsStats">BFS: —</div>
           <div id="dfsStats">DFS: —</div>
